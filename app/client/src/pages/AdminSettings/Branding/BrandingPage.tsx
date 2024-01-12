@@ -10,6 +10,7 @@ import { Wrapper } from "pages/AdminSettings/Authentication/AuthPage";
 import { getAssetUrl } from "@appsmith/utils/airgapHelpers";
 import type { AdminConfigType } from "@appsmith/pages/AdminSettings/config/types";
 import { getUpgradeBanner } from "@appsmith/utils/BusinessFeatures/brandingPageHelpers";
+import { H1 } from "@blueprintjs/core";
 
 export type brandColorsKeys =
   | "primary"
@@ -81,11 +82,7 @@ function BrandingPage(props: BrandingPageProps) {
           values={values}
         />
         <div className="flex-grow">
-          <Previews
-            favicon={getAssetUrl(values.brandFavicon)}
-            logo={getAssetUrl(values.brandLogo)}
-            shades={values.brandColors}
-          />
+          <h1>Parati</h1>
         </div>
       </div>
     </Wrapper>

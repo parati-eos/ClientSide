@@ -20,7 +20,6 @@ function BrandingBadge() {
   return (
     <Wrapper className="flex items-center p-1 px-2 space-x-2 w-max backdrop-blur-xl backdrop-filter">
       <Text renderAs="h4">Built on Parati</Text>
-      <AppsmithLogo className="w-auto h-3" />
     </Wrapper>
   );
 }

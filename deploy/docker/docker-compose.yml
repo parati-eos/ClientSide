@@ -4,7 +4,7 @@ version: "3"
 
 services:
   appsmith:
-    image: index.docker.io/appsmith/appsmith-ce:release
+    image: index.docker.io/appsmith/appsmith-ce:v1.9.58
     container_name: appsmith
     ports:
       - "8080:80"
